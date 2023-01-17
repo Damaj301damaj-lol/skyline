@@ -1,3 +1,5 @@
+# This is a fork made for the sole purpose that i can build skyline with android:debuggable=true
+
 <h1 align="center">
     <a href="https://github.com/skyline-emu/skyline" target="_blank">
         <img height="60%" width="60%" src="https://raw.github.com/skyline-emu/branding/master/banner/skyline-banner-rounded.png"><br>
