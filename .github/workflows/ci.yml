@@ -4,9 +4,8 @@ on:
   push:
   pull_request:
     types: [opened, synchronize, reopened, labeled]
-
-jobs:
-  build:
+  workflow_dispatch:
+build:
     # Skip 'labeled' events that didn't add the 'ci' label
     if: |
       github.event_name != 'pull_request' ||
